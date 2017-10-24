@@ -1,0 +1,19 @@
+[package]
+name = "ticketserver"
+version = "0.1.0"
+authors = ["Anton Kondrachkov <sx91@protonmail.com>"]
+
+[features]
+default = ["clippy"]
+
+[dependencies]
+hyper = "0.11"
+futures = "0.1"
+
+multimap = "*"
+
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
+
+clippy = {version = "*", optional = true}
